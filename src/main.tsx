@@ -1,17 +1,40 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './index.css'
-import App from './App.tsx'
 
-import { Spec } from './spec.tsx';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './index.css';
 
-const router = createBrowserRouter([{
-  path: 
-}]);
+import { Home } from './pages/Home';
+import { Features } from './pages/Features';
+import { Timeline } from './pages/Timeline';
+import { Testimonial } from './pages/Testimonial';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+const router = createBrowserRouter([
+  {
+  path: '/',
+  element: <Home />,
+
+},
+
+{
+  path: '/Features',
+  element: <Features />,
+},
+
+{
+  path: '/Timeline',
+  element: <Timeline />
+},
+
+{
+  path: '/Testimonial',
+  element: <Testimonial />
+}
+
+]);
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </React.StrictMode>,
+);

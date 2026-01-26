@@ -1,18 +1,21 @@
+import React from 'react';
 import './App.css'
-import { Spec } from './spec'
+import { Home } from './pages/Home';
+import { Features } from './pages/Features';
+import { Timeline } from './pages/Timeline';
+import { Testimonial } from './pages/Testimonial';
+
 
 function App() {
-
   return (
     <>
-    <h1>Adapage</h1>
-
-    <p>Test run</p>
-
-    <Spec  />
+    <Home  />
+    <Features />
+    <Timeline />
+    <Testimonial />
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
