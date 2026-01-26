@@ -1,4 +1,5 @@
 import './App.css'
+import { Spec } from './spec'
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <h1>Adapage</h1>
 
     <p>Test run</p>
+
+    <Spec  />
 
     </>
   )
