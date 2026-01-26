@@ -1,8 +1,9 @@
 import type { Person } from "../types/person";
+import image from "../assets/img/mia/4.jpg";
 
 export const person: Person = {
     name: "Mia Goth",
-    image: "",
+    image: image,
     description:"Mia Goth est une actrice  britannique connue pour ses rôles marquants dans le cinéma d'horreur et d'auteur.",
     infoCards: [
         {title: "Nationalité", value: "Britannique"},
