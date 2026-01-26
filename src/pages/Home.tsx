@@ -1,2 +1,10 @@
-import React from 'react';
-import { person } from '../data/person';
+
+import { person } from '../data/person'
+
+export const  Home = () => {
+    return <>
+
+    <h2>Home Page</h2>
+    
+    </>
+}
