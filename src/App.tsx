@@ -6,6 +6,8 @@ function App() {
     <>
     <h1>Adapage</h1>
 
+    <p>Test run</p>
+
     </>
   )
 }
