@@ -10,10 +10,12 @@ import { Timeline } from './pages/Timeline';
 import { Testimonial } from './pages/Testimonial';
 import  NotFoundPage  from './pages/NotFoundPage';
 
+import App from './App';
+
 const router = createBrowserRouter([
   {
   path: '/',
-  element: <Home />,
+  element: <App />,
   errorElement: <NotFoundPage />,
 
 },

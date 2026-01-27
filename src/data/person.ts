@@ -1,6 +1,7 @@
 import type { Person } from "../types/person";
 import image from "../assets/img/mia/4.jpg";
 
+
 export const person: Person = {
     name: "Mia Goth",
     image: image,
@@ -9,7 +10,7 @@ export const person: Person = {
         {title: "Nationalité", value: "Britannique"},
         {title: "Métier", value:"Actrice"},
         {title: "Signe Astrologique", value:"Scorpion"},
-        {title: "Date de naissance", value:"1999-10-25"},
+        {title: "Date de naissance", value:"1993-10-25"},
         {title: "Qualité", value:"Intensité"}
     ],
     timeline: [
