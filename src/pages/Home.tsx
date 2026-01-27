@@ -21,6 +21,7 @@ export const  Home = () => {
           className="w-full max-w-md rounded-2xl shadow-2xl transition-transform hover:scale-105 duration-300 object-cover aspect-square"
         />
       </div>
+      
     </main>
   );
 }
