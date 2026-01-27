@@ -5,7 +5,11 @@ import image from "../assets/img/mia/4.jpg";
 export const person: Person = {
     name: "Mia Goth",
     image: image,
-    description:"Mia Goth est une actrice  britannique connue pour ses rôles marquants dans le cinéma d'horreur et d'auteur.",
+    description:`Mia Goth est une actrice britannique reconnue pour ses rôles intenses et singuliers dans le cinéma d’horreur et le cinéma d’auteur. Elle s’est imposée comme une figure marquante grâce à son interprétation de personnages complexes, souvent marginalisés ou psychologiquement instables.
+
+Révélée au grand public par ses performances dans des films comme Suspiria, X et Pearl, elle se distingue par un jeu audacieux, émotionnel et sans compromis. Mia Goth n’hésite pas à explorer des thèmes sombres tels que la solitude, la folie ou le désir de reconnaissance, ce qui lui a valu une forte reconnaissance critique.
+
+Appréciée pour son authenticité et son refus des rôles conventionnels, elle est aujourd’hui considérée comme l’une des actrices les plus marquantes de sa génération dans le cinéma contemporain.`,
     infoCards: [
         {title: "Nationalité", value: "Britannique"},
         {title: "Métier", value:"Actrice"},

@@ -28,9 +28,9 @@ function Footer() {
                          <h4 className="text-lg font-semibold text-white mb-2">Légal & Social</h4>
                         <p className="text-sm">© {new Date().getFullYear()} {person.name}. Tous droits réservés.</p>
                         <div className="flex justify-center md:justify-start space-x-4 mt-2">
-                            <a href="#" className="hover:text-white transition-colors">Twitter</a>
-                            <a href="#" className="hover:text-white transition-colors">Instagram</a>
-                            <a href="#" className="hover:text-white transition-colors">IMDb</a>
+                            <a href="https://x.com/miagothupdate" className="hover:text-white transition-colors">X</a>
+                            <a href="https://www.instagram.com/miaxgoth/?hl=fr" className="hover:text-white transition-colors">Instagram</a>
+                            <a href="https://www.imdb.com/name/nm5301405/" className="hover:text-white transition-colors">IMDb</a>
                         </div>
                     </div>
                 </div>
