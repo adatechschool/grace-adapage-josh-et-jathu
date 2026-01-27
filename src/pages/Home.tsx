@@ -10,6 +10,9 @@ export const  Home = () => {
         <p className="text-xl leading-relaxed text-gray-700 dark:text-gray-300">
           {person.description}
         </p>
+        <p>{person.infoCards.map((infoCard) => (
+          <p key={infoCard.title}>{infoCard.title}: {infoCard.value}</p>
+        ))}</p>
       </div>
       <div className="flex-1 flex justify-center">
         <img 

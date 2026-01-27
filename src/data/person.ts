@@ -22,7 +22,7 @@ export const person: Person = {
             year: "2022",
             title: "X / Pearl",
             description: "Performance acclamée dans les films de Ti West.",
-            quote: "Pearl is a character who wants to be seen.",
+            quote: "I'm a fucking star,The whole world is gonna know my name, I will not accept a life- i do not deserve",
         },
     ],
     quotes: [
