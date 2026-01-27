@@ -1,7 +1,10 @@
+
+
 export const  Testimonial = () => {
     return <>
 
-    <h2>Testimonial</h2>
+   
+    <h1>Testimonial</h1>
     
     </>
 }
