@@ -6,7 +6,7 @@ export const  Testimonial = () => {
 
         <h1>Teigmoinage</h1>
 
-        <section className=" grid grid-cols-1 bg-red-900 dark:bg-gray-900 text-gray-900 p-12">
+        <section className=" grid grid-cols-1 bg-red-900  text-gray-900 p-12">
 
             <div className="flex flex-hor items-center gap-8 w-full max-w-2xl mx-auto bg-white">
                 {person.quotes.map((quote) => (

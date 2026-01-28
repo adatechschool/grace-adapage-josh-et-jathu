@@ -18,8 +18,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Custom Variables */
-  --primary-color: #061e52;
-  --text-color: #1f2937;
+  --primary-color: #ffffff;
+  --text-color: #ffffff;
   --bg-color: #ffffff;
   --nav-height: 64px;
 }
