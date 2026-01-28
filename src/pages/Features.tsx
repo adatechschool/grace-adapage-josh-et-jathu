@@ -4,7 +4,7 @@ export const  Features = () => {
     return (
         <main>
                   {/* SECTION (Info Cards) */}
-      <section className=" grid grid-cols-1 bg-gray-50 dark:bg-gray-900 text-gray-900 p-12">
+      <section className=" grid grid-cols-1 bg-violet-950 text-zinc-100 p-12">
           {/*Container*/}
           <h2 className="flex flex-col items-center text-4xl font-semibold mb-2 text-white">Caractéristiques</h2>
           <p className=" flex flex-col items-center text-sm text-white/60 mb-8">
@@ -13,10 +13,10 @@ export const  Features = () => {
 
           <div className="flex flex-col items-center gap-8 w-full max-w-2xl mx-auto">
             {person.infoCards.map((infoCard) => (
-              <div key={infoCard.title} className="snap-center w-full p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700
+              <div key={infoCard.title} className="snap-center w-full p-6 bg-violet-900 rounded-3xl shadow-lg border border-black 
                transition-transform hover:scale-105 duration-300 ease-in-out
                flex flex-col items-center justify-center text-center">
-                <span className="text-xs  text-gray-900 font-bold dark:text-gray-400 uppercase tracking-widest mb-2">
+                <span className="text-xs  text-white font-bold  uppercase tracking-widest mb-2">
                   {infoCard.title}
                 </span>
 
