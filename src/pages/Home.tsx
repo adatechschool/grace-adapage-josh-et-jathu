@@ -2,7 +2,7 @@ import { person } from "../data/person";
 
 export const Home = () => {
   return (
-    <main className="flex flex-col min-h-screen p-8 pt-44 gap-12 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
+    <main className="flex flex-col min-h-screen p-8 pt-22 gap-22 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white">
       
       {/* SECTION 1: Presentation (Text + Image) */}
       <section className="flex flex-col md:flex-row items-center justify-between gap-8">

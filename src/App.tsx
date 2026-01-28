@@ -23,6 +23,8 @@ function App() {
     <Route path="/Features" element={<Features />}  />
     <Route path="/Timeline" element={<Timeline />} />
     <Route path="/Testimonial" element={<Testimonial />} />
+    <Route path="*" element={<NotFoundPage />} />
+ 
     
 
     </Routes>
