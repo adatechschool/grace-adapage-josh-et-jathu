@@ -2,7 +2,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <nav className=" py-3">
+    <nav className="bg-violet-950 text-fuchsia-400 hover:text-pink-400 text-2xl">
 
       <ul className="flex flex-1 gap-6 justify-center">
         <CustomLink to= "/">Acceuil</CustomLink>
