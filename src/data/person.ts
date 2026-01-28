@@ -3,6 +3,7 @@ import image from "../assets/img/mia/4.jpg";
 
 
 
+
 export const person: Person = {
     name: "Mia Goth",
     image: image,
