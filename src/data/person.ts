@@ -16,10 +16,9 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
         {title: "Métier", value:"Actrice"},
         {title: "Signe Astrologique", value:"Scorpion"},
         {title: "Date de naissance", value:"1993-10-25"},
-        {title: "Style de jeu", value:"Expressif, audacieux, émotionnel"},
-        {title: "Thèmes récurrents", value:"Solitude, marginalité, folie, désir de reconnaissance"},
+        {title: "Style de jeu", value:"Expressif, Audacieux, Émotionnel"},
+        {title: "Thèmes récurrents", value:"Solitude, Marginalité, Folie, Désir de reconnaissance"},
         {title: "Qualité", value:"Intensité"},
-        {title: "Réputation", value:"Figure emblématique du renouveau de l’horreur moderne"}
     ],
     timeline: [
         {
