@@ -2,6 +2,7 @@ import type { Person } from "../types/person";
 import image from "../assets/img/mia/4.jpg";
 
 
+
 export const person: Person = {
     name: "Mia Goth",
     image: image,
@@ -15,7 +16,10 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
         {title: "Métier", value:"Actrice"},
         {title: "Signe Astrologique", value:"Scorpion"},
         {title: "Date de naissance", value:"1993-10-25"},
-        {title: "Qualité", value:"Intensité"}
+        {title: "Style de jeu", value:"Expressif, audacieux, émotionnel"},
+        {title: "Thèmes récurrents", value:"Solitude, marginalité, folie, désir de reconnaissance"},
+        {title: "Qualité", value:"Intensité"},
+        {title: "Réputation", value:"Figure emblématique du renouveau de l’horreur moderne"}
     ],
     timeline: [
         {
@@ -42,6 +46,10 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
         {
             text: "I’m not interested in being likable, I’m interested in being honest.",
             source: "Interview"
+        },
+        {
+            text: "In those eyes I saw pain, and what is pain if not evidence of intelligence?",
+            source: "Movie : Frankenstein"
         }
     ]
 
