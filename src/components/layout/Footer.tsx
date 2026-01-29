@@ -2,7 +2,7 @@ import { person } from "../../data/person";
 
 function Footer() {
     return (
- <footer className="bg-neutral-900 text-neutral-300 py-12">
+ <footer className="from-red-800 to-red-900 bg-linear-to-r text-neutral-300 py-12">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
                     

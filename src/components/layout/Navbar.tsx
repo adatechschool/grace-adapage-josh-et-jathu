@@ -1,16 +1,23 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import image from "../../assets/img/mia/logo.png"
 
 export default function Navbar() {
   return (
-    <nav className="bg-violet-950 text-fuchsia-400 text-2xl">
+    <nav className="from-red-800 to-red-900 bg-linear-to-r text-zinc-100 shadow-md">
+      <div className="w-full px-8 h-16 flex items-center justify-between">
+        {/* Brand / Home Link */}
+        <Link to="/" className="hover:opacity-80 transition-opacity">
+          <img className="h-20 w-auto object-contain" src={image} alt="logo" />
+        </Link>
 
-      <ul className="flex flex-1 gap-6 justify-center">
-        <CustomLink to= "/">Acceuil</CustomLink>
-        <CustomLink to= "/Features">Caractéristiques</CustomLink>
-        <CustomLink to="/Timeline">Chronologie</CustomLink>
-        <CustomLink to="/Testimonial">Témoignages</CustomLink>
-      </ul>
-    </nav>  
+        {/* Navigation Links */}
+        <ul className="flex items-center gap-8">
+          <CustomLink to="/Features">Caractéristiques</CustomLink>
+          <CustomLink to="/Timeline">Chronologie</CustomLink>
+          <CustomLink to="/Testimonial">Témoignages</CustomLink>
+        </ul>
+      </div>
+    </nav>
   );
 }
 
@@ -21,7 +28,13 @@ function CustomLink({ to, children }: { to: string; children: React.ReactNode })
   
     return (
     <li className={isActive ? "active" : ""}>
-      <Link to={to}>{children}
+      <Link 
+        to={to} 
+        className={`text-lg transition-colors hover:text-white ${
+          isActive ? "font-semibold text-white border-b-2 border-white pb-1" : "text-zinc-200"
+        }`}
+      >
+        {children}
       </Link>
     </li>
   );

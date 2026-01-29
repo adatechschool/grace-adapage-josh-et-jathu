@@ -9,7 +9,7 @@ export const Home = () => {
           
         {/* DIV: Description Text */}
         <div className="flex-1 space-y-4">
-          <h1 className="text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-purple-400 to-fuchsia-400">
+          <h1 className="text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-red-800 to-red-900 drop-shadow-[0_4px_4px_rgba(185,28,28,0.5)]">
             {person.name}
           </h1>
           <p className="text-xl leading-relaxed text-gray-700">
