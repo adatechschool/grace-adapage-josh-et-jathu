@@ -43,7 +43,7 @@ export const Testimonial = () => {
 
     return (
         <main className="flex flex-col bg-[url(../assets/img/mia/mia.avif)] min-h-screen bg-no-repeat bg-cover bg-blend-difference -mt-10 pt-10 bg-gray-800 dark:bg-gray-900 text-gray-900 p-7">
-            <h1 className="text-4xl flex flex-wrap font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-900 mb-20">
+            <h1 className="text-4xl flex flex-col font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-900 mb-20">
                 Témoignages
             </h1>
 

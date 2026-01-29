@@ -10,6 +10,8 @@ export default function Navbar() {
           <img className="h-20 w-auto object-contain" src={image} alt="logo" />
         </Link>
 
+        
+
         {/* Navigation Links */}
         <ul className="flex items-center gap-8">
           <CustomLink to="/Features">Caractéristiques</CustomLink>

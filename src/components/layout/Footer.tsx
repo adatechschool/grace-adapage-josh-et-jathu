@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { person } from "../../data/person";
 
 function Footer() {
@@ -17,10 +18,10 @@ function Footer() {
                     {/* Navigation Links */}
                     <div className="flex flex-col space-y-2">
                         <h4 className="text-lg font-semibold text-white mb-2">Navigation</h4>
-                        <a href="#home" className="hover:text-white transition-colors duration-200">Accueil</a>
-                        <a href="#features" className="hover:text-white transition-colors duration-200">Caractéristiques</a>
-                        <a href="#timeline" className="hover:text-white transition-colors duration-200">Chronologie</a>
-                        <a href="#testimonial" className="hover:text-white transition-colors duration-200">Témoignages</a>
+                        <Link to="/" className="hover:text-white transition-colors duration-200">Accueil</Link>
+                        <Link to="/features" className="hover:text-white transition-colors duration-200">Caractéristiques</Link>
+                        <Link to="/timeline" className="hover:text-white transition-colors duration-200">Chronologie</Link>
+                        <Link to="/testimonial" className="hover:text-white transition-colors duration-200">Témoignages</Link>
                     </div>
 
                     {/* Social / Legal */}
