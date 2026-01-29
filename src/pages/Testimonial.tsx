@@ -10,9 +10,9 @@ export const  Testimonial = () => {
         <h1 className="text-4xl font-extrabold  text-center tracking-tight bg-clip-text text-transparent bg-linear-to-r from-red-600 to-red-900 m-5 " >
             Témoinages</h1>
 
-        <section className=" grid grid-cols-1 bg-red-900  text-gray-900 p-12">
+        {/* <section className=" grid grid-cols-1 bg-red-900  text-gray-900 p-12">   */}
 
-        <section className=" flex bg-[url(../assets/img/mia/mia.avif)] bg-blend-luminosity  mt-10  bg-contain bg-gray-800 dark:bg-gray-900 text-gray-900 p-7">
+        <section className=" flex bg-blend-luminosity  mt-10  bg-contain bg-gray-800 dark:bg-gray-900 text-gray-900 p-7" style={{ backgroundImage: `url(${image})` }}>
 
           
 
