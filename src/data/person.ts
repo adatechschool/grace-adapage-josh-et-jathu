@@ -23,16 +23,42 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
     ],
     timeline: [
         {
+            year: "2013",
+            title: "Nymphomaniac",
+            description: "Débuts au cinéma dans le film de Lars von Trier.",
+          },
+          {
+            year: "2016",
+            title: "A Cure for Wellness",
+            description: "Premier rôle marquant dans un thriller psychologique.",
+          },
+          {
             year: "2018",
             title: "Suspiria",
-            description: "Rôle remarqué dans le film de Luca Guadagnino."
-        },
-        {
+            description: "Reconnaissance critique pour une performance intense.",
+          },
+          {
             year: "2022",
             title: "X / Pearl",
-            description: "Performance acclamée dans les films de Ti West.",
-            quote: "I'm a fucking star,The whole world is gonna know my name, I will not accept a life- i do not deserve",
-        },
+            description: "Explosion médiatique et consécration dans le cinéma d’horreur.",
+            quote: "Pearl is a character who wants to be seen.",
+          },
+          {
+            year: "2023",
+            title: "Infinity Pool",
+            description: "Confirmation de son statut d’actrice audacieuse.",
+          },
+          { 
+            year: "2024",
+            title: "Projet : MaXXXine (suite de X)",
+            description: "Mia Goth s’impose durablement comme une icône du cinéma d’horreur contemporain.",
+          },
+          {
+            year: "2025",
+            title: "Frankenstein",
+            description: "Projet associé à l’univers de Frankenstein, explorant la douleur, l’exclusion et l’intelligence émotionnelle.",
+          },
+          
     ],
     quotes: [
         {
