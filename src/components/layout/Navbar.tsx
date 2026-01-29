@@ -4,7 +4,7 @@ import image from "../../assets/img/mia/logo.png"
 export default function Navbar() {
   return (
     <nav className="from-red-800 to-red-900 bg-linear-to-r text-zinc-100 shadow-md">
-      <div className="w-full px-8 h-16 flex items-center justify-between">
+      <div className="w-full px-8 h-16 mb-8 flex items-center justify-between">
         {/* Brand / Home Link */}
         <Link to="/" className="hover:opacity-80 transition-opacity">
           <img className="h-20 w-auto object-contain" src={image} alt="logo" />

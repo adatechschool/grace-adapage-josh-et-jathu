@@ -43,7 +43,7 @@ export const Testimonial = () => {
 
     return (
         <main className="flex flex-col bg-[url(../assets/img/mia/mia.avif)] min-h-screen bg-no-repeat bg-cover bg-blend-difference -mt-10 pt-10 bg-gray-800 dark:bg-gray-900 text-gray-900 p-7">
-            <h1 className="text-4xl font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-900 mb-20">
+            <h1 className="text-4xl flex flex-wrap font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-900 mb-20">
                 Témoignages
             </h1>
 
@@ -79,30 +79,19 @@ export const Testimonial = () => {
                                 {quote.text}
                             </span>
 
-        {/* <section className=" grid grid-cols-1 bg-red-900  text-gray-900 p-12">   */}
+                            <span className="block mt-5 font-semibold text-white text-shadow-gray-950 text-shadow-xs relative z-10">
+                                {quote.source}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+            </section>
 
-        <section className=" flex bg-blend-luminosity  mt-10  bg-contain bg-gray-800 dark:bg-gray-900 text-gray-900 p-7" style={{ backgroundImage: `url(${image})` }}>
-
-          
-
-            <div className="flex flex-row items-center gap-8 p-7 w-auto  max-w-8xl mx-auto  overflow-x-auto relative h-56 overflow-hidden rounded-base md:h-96">
-                {person.quotes.map((quote) => (
-                <div key={quote.text} className="drop-shadow-lg border rounded-2xl shadow-2xl  shadow-gray-600 sh  p-4 border-l-red-300 border-r-red-300 border-b-red-900 border-hidden transition-shadow hover:scale-105 duration-100 ease-out items-center justify-center text-center">
-                    <span className="flex-1 leading-relaxed font-extrabold tracking-tight  text-shadow-red-600 text-shadow-s text-red-700   ">
-                        {quote.text}
-                    </span>
-
-                    <span className="flex-1 block gap-* mt-5 font-semibold text-white text-shadow-gray-950 text-shadow-xs " >
-                        {quote.source}
-                    </span>
-                    </div>
-                ))}
-
-                
-            </div>
-
-
-        </section>
-    </main>
+            <style jsx>{`
+                div::-webkit-scrollbar {
+                    display: none;
+                }
+            `}</style>
+        </main>
     );
 };
