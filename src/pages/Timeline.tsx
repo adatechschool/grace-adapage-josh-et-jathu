@@ -1,4 +1,3 @@
-
 import { person } from "../data/person";
 
 export const  Timeline = () => {
@@ -16,13 +15,11 @@ export const  Timeline = () => {
                             <h3 className="text-2xl font-bold text-red-900">{event.year}</h3>
                             <h4 className="text-xl font-bold text-red-900">{event.title}</h4>
                             <p className="text-lg">{event.description}</p>
+                            <img src={event.image} className="w-full h-auto rounded-lg" />
                         </li>
                     ))}
                 </ul>
             </section>
         </main>
     )
-
-    
-    
 };

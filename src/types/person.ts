@@ -10,6 +10,7 @@ export type TimelineEvent = {
   title: string; // Titre du film ou de l'événement
   description: string; // Description courte
   quote?: string; // Citation optionnelle liée à cet événement
+  image: string; // URL ou chemin de l'image
 };
 
 // Type pour une citation générale

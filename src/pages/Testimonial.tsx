@@ -42,8 +42,8 @@ export const Testimonial = () => {
     }, []);
 
     return (
-        <main className="flex flex-col bg-[url(../assets/img/mia/mia.avif)] min-h-screen bg-no-repeat bg-cover bg-blend-difference -mt-10 pt-10 bg-gray-800 dark:bg-gray-900 text-gray-900 p-7">
-            <h1 className="text-4xl flex flex-col font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-900 mb-20">
+        <main className="flex flex-col bg-[url(../assets/img/mia/mia.avif)] min-h-screen bg-no-repeat bg-cover bg-blend-difference bg-gray-800 dark:bg-gray-900 text-gray-900 p-7">
+            <h1 className="text-4xl flex flex-col font-extrabold text-center tracking-tight bg-clip-text text-transparent bg-linear-to-r from-red-600 to-red-900 mb-20">
                 Témoignages
             </h1>
 
@@ -57,7 +57,7 @@ export const Testimonial = () => {
                     {person.quotes.map((quote, index) => (
                         <div 
                             key={`original-${index}`} 
-                            className="flex-shrink-0 w-80 drop-shadow-2xl border-2 rounded-lg shadow-2xl shadow-red-900/80 p-6 bg-black/90 border-red-900 transition-all hover:scale-105 hover:shadow-red-600/60 hover:border-red-600 duration-300 ease-out flex flex-col items-center justify-center text-center relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-b before:from-red-900/20 before:to-transparent before:pointer-events-none"
+                            className="shrink-0 w-80 drop-shadow-2xl border-2 rounded-lg shadow-2xl shadow-red-900/80 p-6 bg-black/90 border-red-900 transition-all hover:scale-105 hover:shadow-red-600/60 hover:border-red-600 duration-300 ease-out flex flex-col items-center justify-center text-center relative overflow-hidden before:absolute before:inset-0 before:bg-linear-to-b before:from-red-900/20 before:to-transparent before:pointer-events-none"
                         >
                             <span className="leading-relaxed font-extrabold tracking-tight text-shadow-red-600 text-shadow-s text-red-700 relative z-10">
                                 {quote.text}
@@ -73,7 +73,7 @@ export const Testimonial = () => {
                     {person.quotes.map((quote, index) => (
                         <div 
                             key={`duplicate-${index}`} 
-                            className="flex-shrink-0 w-80 drop-shadow-2xl border-2 rounded-lg shadow-2xl shadow-red-900/80 p-6 bg-black/90 border-red-900 transition-all hover:scale-105 hover:shadow-red-600/60 hover:border-red-600 duration-300 ease-out flex flex-col items-center justify-center text-center relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-b before:from-red-900/20 before:to-transparent before:pointer-events-none"
+                            className="shrink-0 w-80 drop-shadow-2xl border-2 rounded-lg shadow-2xl shadow-red-900/80 p-6 bg-black/90 border-red-900 transition-all hover:scale-105 hover:shadow-red-600/60 hover:border-red-600 duration-300 ease-out flex flex-col items-center justify-center text-center relative overflow-hidden before:absolute before:inset-0 before:bg-linear-to-b before:from-red-900/20 before:to-transparent before:pointer-events-none"
                         >
                             <span className="leading-relaxed font-extrabold tracking-tight text-shadow-red-600 text-shadow-s text-red-700 relative z-10">
                                 {quote.text}
@@ -87,7 +87,7 @@ export const Testimonial = () => {
                 </div>
             </section>
 
-            <style jsx>{`
+            <style>{`
                 div::-webkit-scrollbar {
                     display: none;
                 }

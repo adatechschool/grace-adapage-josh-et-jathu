@@ -9,28 +9,19 @@ import Footer from './components/layout/Footer';
 import {Route, Routes} from "react-router-dom"
 
 
-
 function App() {
-
 
   return (
     <>
     <Navbar />
-
     <Routes>
-  
     <Route path="/" element={<Home />} />
     <Route path="/Features" element={<Features />}  />
     <Route path="/Timeline" element={<Timeline />} />
     <Route path="/Testimonial" element={<Testimonial />} />
     <Route path="*" element={<NotFoundPage />} />
- 
-    
-
-    </Routes>
-   
+    </Routes>   
     <Footer/>
-
     </>
   );
 }

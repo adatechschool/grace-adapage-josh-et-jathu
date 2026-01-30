@@ -1,8 +1,12 @@
 import type { Person } from "../types/person";
 import image from "../assets/img/mia/4.jpg";
-
-
-
+import img1 from "../assets/img/mia/Movie_1.jpg";
+import img2 from "../assets/img/mia/Movie_2.jpg";
+import img3 from "../assets/img/mia/Movie_3.jpg";
+import img4 from "../assets/img/mia/Movie_4.jpg";
+import img5 from "../assets/img/mia/Movie_5.jpg";
+import img6 from "../assets/img/mia/Movie_6.jpg";
+import img7 from "../assets/img/mia/Movie_7.jpg";
 
 export const person: Person = {
     name: "Mia Goth",
@@ -26,39 +30,45 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
             year: "2013",
             title: "Nymphomaniac",
             description: "Débuts au cinéma dans le film de Lars von Trier.",
+            image: img1
           },
           {
             year: "2016",
             title: "A Cure for Wellness",
             description: "Premier rôle marquant dans un thriller psychologique.",
+            image: img2
           },
           {
             year: "2018",
             title: "Suspiria",
             description: "Reconnaissance critique pour une performance intense.",
+            image: img3
           },
           {
             year: "2022",
             title: "X / Pearl",
             description: "Explosion médiatique et consécration dans le cinéma d’horreur.",
             quote: "Pearl is a character who wants to be seen.",
+            image: img4
           },
           {
             year: "2023",
             title: "Infinity Pool",
             description: "Confirmation de son statut d’actrice audacieuse.",
+            image: img5
           },
           { 
             year: "2024",
-            title: "Projet : MaXXXine (suite de X)",
+            title: "Projet : MaXXine (suite de X)",
             description: "Mia Goth s’impose durablement comme une icône du cinéma d’horreur contemporain.",
+            image: img6
           },
           {
             year: "2025",
             title: "Frankenstein",
             description: "Projet associé à l’univers de Frankenstein, explorant la douleur, l’exclusion et l’intelligence émotionnelle.",
+            image: img7
           },
-          
     ],
     quotes: [
         {
@@ -78,6 +88,4 @@ Appréciée pour son authenticité et son refus des rôles conventionnels, elle 
             source: "Movie : Frankenstein"
         }
     ]
-
-
 };
