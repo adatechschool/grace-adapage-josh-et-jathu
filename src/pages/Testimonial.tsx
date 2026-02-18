@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { person } from "../data/person";
-import image from "../assets/img/mia/mia.avif";
+
 
 export const Testimonial = () => {
     const scrollRef = useRef<HTMLDivElement>(null);
