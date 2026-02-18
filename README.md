@@ -9,9 +9,9 @@ Un projet web moderne et performant construit avec **React 19** et **Vite**, uti
 Ce projet est une application web vitrine qui met en avant différentes sections clés :
 
 - **Accueil** : Présentation principale.
-- **Fonctionnalités** : Mise en valeur des atouts du service/produit.
-- **Chronologie** : Visualisation d'un parcours ou d'une évolution.
-- **Témoignages** : Retours d'expérience utilisateurs.
+- **Fonctionnalités** : Mise en valeur des atouts de Mia Goth.
+- **Chronologie** : Visualisation d'un parcours et d'une évolution.
+- **Témoignages** : Retours d'expérience de Mia Goth.
 
 ## Fonctionnalités
 
