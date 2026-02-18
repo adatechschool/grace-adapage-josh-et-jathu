@@ -1,73 +1,47 @@
-# React + TypeScript + Vite
+# Adapage React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un projet web moderne et performant construit avec **React 19** et **Vite**, utilisant **TypeScript** pour la robustesse et **TailwindCSS 4** pour un style élégant et responsive.
 
-Currently, two official plugins are available:
+![Hero](./src/public/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## React Compiler
+Ce projet est une application web vitrine qui met en avant différentes sections clés :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Accueil** : Présentation principale.
+- **Fonctionnalités** : Mise en valeur des atouts du service/produit.
+- **Chronologie** : Visualisation d'un parcours ou d'une évolution.
+- **Témoignages** : Retours d'expérience utilisateurs.
 
-## Expanding the ESLint configuration
+## Fonctionnalités
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-  **Performance** : Démarrage instantané et HMR rapide grâce à Vite.
+-  **Design Moderne** : Interface utilisateur soignée avec TailwindCSS 4.
+-  **Responsive** : Adapté à tous les écrans (mobile, tablette, desktop).
+-  **Navigation** : Routing fluide géré par React Router Dom 7.
+-  **Typage Fort** : Codebase maintenable et sécure avec TypeScript.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Ce projet utilise les dernières technologies du développement web :
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS 4](https://tailwindcss.com/)
+- [React Router Dom 7](https://reactrouter.com/)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Structure du Projet
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+src/
+├── assets/         # Ressources statiques
+├── components/     # Composants réutilisables (Navbar, Footer...)
+├── data/           # Données statiques
+├── pages/          # Pages de l'application (Home, Features...)
+├── public/         # Images publiques (ex: hero.png)
+├── router/         # Configuration du routing
+├── styles/         # Styles globaux
+├── types/          # Définitions TypeScript
+├── App.tsx         # Composant racine
+└── main.tsx        # Point d'entrée
