@@ -1,12 +1,12 @@
 import type { Person } from "../types/person";
 import image from "../assets/img/mia/4.jpg";
-import img1 from "../assets/img/mia/Movie_1.jpg";
-import img2 from "../assets/img/mia/Movie_2.jpg";
-import img3 from "../assets/img/mia/Movie_3.jpg";
-import img4 from "../assets/img/mia/Movie_4.jpg";
-import img5 from "../assets/img/mia/Movie_5.jpg";
-import img6 from "../assets/img/mia/Movie_6.jpg";
-import img7 from "../assets/img/mia/Movie_7.jpg";
+import img1 from "../assets/img/mia/movie_1.jpg";
+import img2 from "../assets/img/mia/movie_2.jpg";
+import img3 from "../assets/img/mia/movie_3.jpg";
+import img4 from "../assets/img/mia/movie_4.jpg";
+import img5 from "../assets/img/mia/movie_5.jpg";
+import img6 from "../assets/img/mia/movie_6.jpg";
+import img7 from "../assets/img/mia/movie_7.jpg";
 
 export const person: Person = {
     name: "Mia Goth",
